@@ -1,0 +1,982 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+
+main,
+header,
+section,
+aside,
+article,
+nav,
+figure,
+fieldset,
+footer {
+    display: block;
+}
+
+.big_wrapper {
+    width: 100%;
+    margin: 0px auto;
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.contacts {
+    background-color: #10b06c;
+    color: #f2f2f2;
+    padding: 10px 0px;
+}
+
+.logo {
+    border: 2px dotted green;
+    border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    top: 8px;
+    left: 2px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+}
+
+.contacts p {
+    text-align: left;
+    margin-left: 33%;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.phone {
+    padding-top: 2%;
+}
+
+.hour {
+    padding: 2px 0px;
+}
+
+.days {
+    padding-bottom: 2%;
+}
+
+.contacts .motto {
+    margin-top: 5px;
+    margin-left: 9%;
+    font-size: 17px;
+}
+
+.toggle {
+    position: relative;
+    margin-left: 12%;
+    width: 30px;
+    cursor: pointer;
+}
+
+.navpanel {
+    background-color: #1b9662;
+    padding: 5px 0px 3px 0px;
+    z-index: 10;
+    position: relative;
+}
+
+.navpanel span {
+    background-color: #111;
+    width: 30px;
+    height: 6px;
+    margin-bottom: 3px;
+    display: block;
+}
+
+.navpanel .firstspan {
+    margin: 5px 0px 3px 0px;
+}
+
+.navpanel nav {
+    display: none;
+    padding: 5px;
+    background-color: #f2f2f2;
+    z-index: 15;
+}
+
+.navpanel nav a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    width: 200px;
+    margin: 0px auto;
+}
+
+.navpanel nav a:hover {
+    background-color: #ffff
+}
+
+.navpanel .closebutton {
+    position: absolute;
+    top: 40px;
+    right: 10%;
+    font-weight: 500;
+    font-size: 33px;
+    display: none;
+}
+
+.navpanel .closebutton:hover {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.banner {
+    width: 100%;
+    background-image: url("img/bg1.jpeg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    height: 450px;
+    background-color: #666666
+}
+
+.bannertext {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 10, 0.5) ! important;
+}
+
+.bannertext h1,
+.bannertext h3 {
+    color: #f2f2f2;
+    text-shadow: 2px 1px green;
+    font-size: 24px;
+    padding: 3px;
+}
+
+.banner h1 {
+    color: #f2f2f2;
+    font-size: 26px;
+}
+
+.bannertext .additional {
+    font-size: 23px;
+    font-style: initial;
+    color: #f2f2f2;
+    padding: 0px 3px 3px 3px;
+}
+
+.bannertext .box {
+    color: yellow;
+    font-size: 24px;
+}
+
+.bannertext .motto {
+    display: none
+}
+
+#slidetext {
+    color: #f2f2f2;
+    font-size: 24px;
+    margin-top: 75px;
+    text-align: left;
+    padding: 10px 3px 10px 10px;
+}
+
+.bannertext h1 {
+    padding-top: 20px
+}
+
+.features {
+    background-color: #f2f2f2;
+    padding: 15px 0px 3px 0px;
+}
+
+.feature {
+    width: 90%;
+    height: 300px;
+    padding: 12px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 0px solid black;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px auto 10px auto;
+    box-shadow: 0px 2px 8px 0px rgba(17, 17, 17, 0.5);
+    -ms-box-shadow: 0px 2px 8px 0px rgba(17, 17, 17, 0.5);
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(17, 17, 17, 0.5);
+}
+
+.feature p {
+    padding-top: 10px;
+    color: rgba(17, 17, 17, 0.8);
+}
+
+.feature h5 {
+    font-size: 20px;
+}
+
+.awesomeDiv {
+    border: 2px solid green;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+    overflow: hidden;
+    position: relative;
+    margin: 0px auto;
+}
+
+.money {
+    padding: 20px 2px 0px 0px;
+}
+
+.far,
+.fas {
+    background-color: white;
+    color: green;
+    font-size: 40px;
+}
+
+.far {
+    font-size: 38px
+}
+
+.fa-phone {
+    display: inline;
+    font-size: 20px;
+    background-color: inherit;
+    color: white;
+    padding: 3px 3px 3px 8px;
+}
+
+.grid_images {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.image_grid {
+    width: 98%;
+    text-align: center;
+    margin: 0px 1%
+}
+
+figcaption {
+    position: absolute;
+    top: 267px;
+    background-color: #f2f2f2;
+    padding: 2px 5px;
+    left: 5px;
+}
+
+.about_us {
+    clear: both;
+    width: 98%;
+    margin: 0px 1%;
+    background-color: #111111;
+    padding: 10px;
+    text-align: justify;
+}
+
+.about_us p {
+    color: white
+}
+
+.h5 {
+    font-size: 24px;
+    text-align: center;
+    color: green;
+    margin: 0px auto;
+    width: 200px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.p {
+    font-size: 18px;
+    text-indent: 30px;
+}
+
+button {
+    font-size: 18px;
+    color: white;
+    background-color: #10b06c;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+button span {
+    font-size: 20px;
+    color: white;
+    padding-left: 2px;
+}
+
+.why_us {
+    width: 98%;
+    margin: 0px 1%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: justify;
+}
+
+.alumnis {
+    width: 98%;
+    text-align: center;
+    margin: 0px 1%
+}
+
+.alumnis h5 {
+    font-size: 24px;
+    color: green;
+}
+
+.alumni {
+    width: 100%;
+    padding: 15px;
+    height: 400px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 5px;
+    background-color: #f2f2f2
+}
+
+.alumni span,
+.alumni p {
+    padding: 5px;
+}
+
+.contact_us {
+    clear: both;
+    width: 98%;
+    margin: 0px 1%;
+    padding: 5px 0px 10px 0px;
+    background-color: #1b9662;
+    text-align: center;
+}
+
+.backToTop {
+    position: fixed;
+    right: 5%;
+    top: 63%;
+    text-align: center;
+    background-color: rgba(1, 1, 1, 0.4);
+    width: 40px;
+    height: 50px;
+    z-index: 2000;
+    padding: 2px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    display: none;
+}
+
+.backToTop a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#formDiv {
+    width: 100%;
+    padding: 5px 0px;
+    background-color: #09794a;
+}
+
+fieldset {
+    width: 94%;
+    box-sizing: border-box;
+    margin: 5px auto;
+    background-color: #10b06c;
+    border: 2px dotted green;
+}
+
+form {
+    width: 100%;
+    padding: 20px 0% 5px 5%;
+}
+
+legend {
+    text-align: center;
+    margin: 0px auto;
+    color: yellow;
+    background-color: #09794a;
+}
+
+input {
+    margin: 0px 0px 5px 0px;
+    border: 0px;
+    height: 30px;
+    display: block;
+    width: 85%;
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.message {
+    border: 0px;
+    width: 95%;
+    padding: 5px;
+    font-size: 16px
+}
+
+form p {
+    margin: 0px;
+    padding: 0px;
+    color: yellow;
+    font-style: italic;
+    padding: 0px 5px;
+    font-size: 17px;
+}
+
+form .forminfo {
+    color: black;
+    padding-right: 15px;
+}
+
+#submit {
+    background-color: #09794a;
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+footer span {
+    color: white;
+}
+
+@media screen and (min-width:359px) {
+    .banner h1 {
+        color: #f2f2f2;
+        letter-spacing: 2px;
+        font-size: 26px;
+        padding-top: 30px;
+    }
+    .bannertext .additional {
+        font-size: 24px;
+    }
+    .contacts p {
+        font-size: 16.5px;
+    }
+    .contacts .motto {
+        margin-left: 9%;
+        margin-top: -1%;
+        font-size: 19px;
+    }
+    input,
+    .message,
+    label {
+        font-size: 17px
+    }
+}
+
+@media screen and (min-width:379px) {
+    .contacts p {
+        font-size: 17.5px;
+        margin-left: 32%;
+    }
+    .logo {
+        left: 5px;
+        top: 10px;
+    }
+    .banner h1 {
+        letter-spacing: 2.5px;
+    }
+    .banner h3 {
+        letter-spacing: 2.5px;
+    }
+    .bannertext .additional,
+    .bannertext .box {
+        font-size: 26px;
+    }
+    #slidetext {
+        font-size: 25px;
+        margin-top: 70px;
+    }
+    .alumni {
+        height: 330px;
+    }
+    .contacts .motto {
+        margin-left: 7%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:459px) {
+    .logo {
+        height: 110px;
+        width: 110px;
+    }
+}
+
+@media screen and (min-width:479px) {
+    .logo {
+        border: 2px dotted green;
+        top: 8px;
+        left: 20px;
+        height: 120px;
+        width: 120px;
+    }
+    .contacts p {
+        margin-left: 33%;
+        font-size: 19px;
+        letter-spacing: 1.5px;
+    }
+    .toggle {
+        position: relative;
+        margin-left: 12%;
+        padding-bottom: 5px;
+    }
+    .navpanel nav {
+        display: none;
+    }
+    .bannertext h1,
+    .bannertext h3,
+    .bannertext .additional {
+        font-size: 28px;
+    }
+    .banner h1 {
+        letter-spacing: 2.5px;
+        font-size: 30px;
+    }
+    .banner h3 {
+        padding: 3px 25px;
+        letter-spacing: 2.5px;
+    }
+    .bannertext .box {
+        font-size: 28px;
+    }
+    #slidetext {
+        font-size: 28px;
+        margin-top: 50px;
+    }
+    .alumni {
+        height: 250px;
+    }
+    fieldset {
+        width: 85%
+    }
+    form .forminfo {
+        padding: 0px 10px 0px 0px;
+    }
+    .contacts .motto {
+        margin-left: 8%;
+    }
+}
+
+@media screen and (min-width:584px) {
+    #slidetext {
+        font-size: 30px;
+        margin-top: 80px;
+    }
+    fieldset {
+        width: 90%;
+    }
+    form {
+        padding: 20px 0% 5px 8%;
+    }
+    legend {
+        font-size: 20px;
+        margin: 0px auto;
+    }
+    input {
+        display: inline;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .full_name {
+        width: 365px;
+    }
+    .email {
+        width: 406px;
+    }
+    label {
+        font-size: 20px
+    }
+    .phone_number {
+        width: 323px;
+    }
+    .subject {
+        width: 391px;
+    }
+    .message {
+        width: 470px;
+        font-size: 20px;
+        padding: 5px;
+    }
+    #submit {
+        font-size: 20px
+    }
+    form p {
+        font-size: 20px
+    }
+    form .forminfo {
+        padding: 5px 15% 10px 0px;
+    }
+}
+
+@media screen and (min-width:639px) {
+    .logo {
+        width: 130px;
+        height: 130px;
+    }
+    .contacts p {
+        letter-spacing: 1.5px;
+        font-size: 22px;
+        margin-left: 32%;
+    }
+    .features {
+        padding: 7px 0px
+    }
+    .feature {
+        width: 49%;
+        height: 300px;
+        float: left;
+        margin: 5px 0.5% 5px 0.5%;
+    }
+    .image_grid {
+        width: 100%;
+        margin: 0px 0px 0px 1%;
+    }
+    .grid_images {
+        float: left;
+        width: 49%;
+        height: 300px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .about_us,
+    .why_us {
+        padding: 15px 30px;
+    }
+    .h5 {
+        font-size: 26px;
+        text-align: center;
+    }
+    .p {
+        font-size: 20px;
+        text-indent: 40px;
+    }
+    .alumnis {
+        width: 100%;
+        margin: 0px 1%;
+    }
+    .alumnis h5 {
+        font-size: 26px;
+    }
+    .alumni {
+        float: left;
+        width: 48.8%;
+        height: 390px;
+        margin: 0px 3px 3px 0px;
+    }
+    fieldset {
+        width: 90%;
+    }
+    form {
+        padding: 20px 0% 5px 10%;
+    }
+    footer p {
+        font-size: 18px;
+        padding: 20px 10px 10px 10px;
+    }
+    .contacts .motto {
+        margin-left: 10%;
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width:799px) {
+    .p {
+        font-size: 22px;
+        text-indent: 50px;
+    }
+    .logo {
+        border: 2px dotted green;
+        top: -5px;
+        left: 10px;
+        position: relative;
+        width: 120px;
+        height: 120px;
+    }
+    .contactstext {
+        width: 100%;
+        top: 0px;
+        position: absolute;
+        box-sizing: border-box;
+        text-align: right;
+        padding-top: 0px;
+    }
+    .contactstext p {
+        display: inline-block;
+        margin: 0%;
+        font-size: 21px;
+        padding: 0px 3% 1% 0px;
+    }
+    .contacts .phone {
+        padding-left: 250px;
+        padding-top: 15px;
+    }
+    .contacts .motto {
+        display: none;
+    }
+    .toggle {
+        display: none;
+    }
+    .navpanel {
+        position: absolute;
+        padding: 0px;
+        right: 0px;
+        top: 100px;
+    }
+    .navpanel nav {
+        clear: both;
+        display: block;
+        top: 0px;
+        padding: 0px;
+        text-align: right;
+        position: relative;
+        background-color: #10b06c;
+    }
+    .navpanel nav a {
+        display: inline;
+        font-size: 21px;
+        font-weight: 900;
+        padding: 1px 20px;
+        color: #f2f2f2;
+    }
+    .navpanel nav a:hover {
+        background-color: #0c965c;
+        transition: 1s;
+    }
+    .banner {
+        height: 500px;
+    }
+    .bannertext h3 {
+        font-size: 30px;
+    }
+    .bannertext .box {
+        font-size: 27px;
+    }
+    .bannertext .additional {
+        font-size: 27px;
+        font-style: initial;
+        color: #f2f2f2;
+    }
+    .bannertext .motto {
+        display: block;
+        font-size: 30px;
+    }
+    #slidetext {
+        font-size: 31px;
+        margin-top: 60px;
+    }
+    .bannertext h1 {
+        font-size: 35px;
+    }
+    .alumni {
+        height: 320px;
+    }
+    fieldset {
+        width: 80%;
+    }
+    form {
+        padding: 20px 0% 5px 11%;
+    }
+    legend {
+        font-size: 20px;
+        margin: 0px auto;
+    }
+    input {
+        display: inline;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .full_name {
+        width: 367px;
+    }
+    .email {
+        width: 406px;
+    }
+    label {
+        font-size: 20px
+    }
+    .phone_number {
+        width: 323px;
+    }
+    .message {
+        width: 500px;
+        font-size: 20px;
+        padding: 5px;
+    }
+    #submit {
+        font-size: 20px
+    }
+    form p {
+        font-size: 20px
+    }
+    form .forminfo {
+        padding: 5px 15% 10px 0px;
+    }
+}
+
+@media screen and (min-width:949px) {
+    .contacts p {
+        padding-right: 5%;
+    }
+    .contacts .phone {
+        padding-left: 150px;
+    }
+    fieldset {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:999px) {
+    .logo {
+        height: 130px;
+        width: 130px;
+    }
+    .navpanel nav a {
+        font-size: 22px;
+    }
+    .bannertext h3 {
+        font-size: 35px;
+    }
+    .bannertext h1 {
+        font-size: 40px;
+    }
+    .bannertext .box {
+        font-size: 35px;
+    }
+    .bannertext .additional {
+        font-size: 32px;
+    }
+    .bannertext .motto {
+        font-size: 32px;
+    }
+    #slidetext {
+        font-size: 35px;
+        margin-top: 50px;
+    }
+    fieldset {
+        width: 60%;
+    }
+    form {
+        padding: 20px 0% 5px 8%;
+    }
+}
+
+@media screen and (min-width:1151px) {
+    .contacts p {
+        font-size: 22px;
+        letter-spacing: 0px;
+    }
+    .logo {
+        height: 130px;
+        width: 130px;
+    }
+    .navpanel nav a {
+        font-size: 25px;
+    }
+    .bannertext h3 {
+        font-size: 40px;
+    }
+    .bannertext h1 {
+        font-size: 46px;
+    }
+    .bannertext .additional {
+        font-size: 37px;
+    }
+    .bannertext .box {
+        font-size: 40px;
+    }
+    .bannertext .motto {
+        font-size: 37px;
+    }
+    #slidetext {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    .feature {
+        width: 24%;
+        height: 300px;
+        float: left;
+        margin: 5px 0.5% 5px 0.5%;
+        box-shadow: 0px 2px 5px 0px black;
+    }
+    .image_grid {
+        width: 100%;
+        margin-left: 0.5%;
+    }
+    .grid_images {
+        width: 33%;
+        height: 300px;
+        margin: 0px auto;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .about_us,
+    .why_us,
+    .contact_us {
+        padding: 15px 30px;
+        width: 99%;
+        margin: 0px 0.5%;
+    }
+    .h5 {
+        font-size: 34px;
+        text-align: center;
+        width: 250px;
+    }
+    .p {
+        font-size: 24px;
+        text-indent: 50px;
+    }
+    .alumnis {
+        width: 100%;
+        margin: 0px 0.5%;
+    }
+    .alumnis h5 {
+        font-size: 34px;
+    }
+    .alumni {
+        float: left;
+        width: 32.85%;
+        padding: 20px;
+        margin: 0px 3px 3px 0px;
+    }
+    form {
+        padding: 20px 0% 5px 16%;
+    }
+    legend {
+        font-size: 24px;
+    }
+    .message {
+        width: 570px;
+    }
+}
